@@ -14,15 +14,18 @@ We can define functions that:
 
 * Take a variable number of arguments (Explained in variadic functions extras)
 
-* ⚠️ More on this in the 'Pass by Reference vs. Pass by Value' section, however, remember that most arguments are 'passed by value'
+* ⚠️ Remember that most arguments are 'passed by value' -- more on this in the 'Pass by Reference vs. Pass by Value' section as there are a number of considerations one must take into account
 
-... And functions can be passed around just like variables in Go! (in the extras!) ⭐
+* ⭐ Whenever you have some functions for a specific data type (frequently a struct), you can create a "method" which is a function with a "reciever" (think class and instance method...) and then those functions will be bound to instances of that data type! Cool! (Read more in the "Methods" section)
+
+... And functions can be passed around just like variables in Go! ⭐
 
 ```go
 package main
 
 import (
     "fmt"
+    "strings"
 )
 
 // We use this syntax to define a function in Go
@@ -30,14 +33,24 @@ import (
 func main() {
     // Invoke the sayHelloAndReturnNothingness function without any parameters
     sayHelloAndReturnNothingness()
+
     // Call getMyNumber() and print out the response using fmt
     fmt.Printf("getMyNumber() -> %d\n", getMyNumber())
+
     // Use the combined type inferrence, declaration, and assignment operators to get the results of the getMyFavoriteNumber func
     myFaveNum, reason := getMyFavoriteNumber()
+
     // NB: Remember that fmt.Println will put spaces between arguments for us!
     fmt.Println("My Favorite Number:", myFaveNum, "For The Reason:", reason)
+
     // Let's pass a function to another function as an argument
     fmt.Println(giveMeSomeFunction(getMyNumber))
+
+    // Show me a use case for passing around functions!
+    // NB: the `:=` operator is a short-hand way of declaring and defining variables, more on this in the Variables section!
+    returnedFunc := funcFactory("Show", "how", "much", "cool.")
+    fmt.Println(returnedFunc("Wow", "such", "factory."))
+    fmt.Println(returnedFunc("See!", "There", "is", "a", "use", "case!"))
 }
 
 // This straightforward syntax defines a *package-wide* function that doesn't return anything
@@ -65,6 +78,13 @@ func getMyFavoriteNumber() (num int, reason string) {
 
 func giveMeSomeFunction(f func () int) int {
     return f()
+}
+
+// By the way, this is also a variadic function, you can check that out in the extras in a section called "Variadic Functions"
+func funcFactory(prefix... string) (func(suffix... string) string) {
+    return func(suffix... string) string {
+        return strings.Join(append(prefix, suffix...), " ")
+    }
 }
 
 ```

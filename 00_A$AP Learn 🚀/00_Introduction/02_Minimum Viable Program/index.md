@@ -20,6 +20,11 @@ import (
 func main() {
     fmt.Println("This is a teeny tiny Go program!")
 }
+
+/* By the way,
+   Go allows us to have multi-line comments
+   like this. Nice :)
+*/
 ```
 
 Now that you've got your first Go program running, let's really get started...

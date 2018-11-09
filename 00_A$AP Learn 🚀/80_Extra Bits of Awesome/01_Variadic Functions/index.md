@@ -1,4 +1,4 @@
-### How to Use Variadic Functions
+### How to Use Variadic Functions 
 
 #### What are varaidics and why do they exist?
 
@@ -14,7 +14,7 @@ import (
 func main() {
     // Example invocation of a variadic with some string literals
     fmt.Println(exampleVariadic("This", "Will", "Accept", "However", "Many", "Args", "We", "Pass"))
-    
+
     // Example invocation of a variadic without any args (this is totally valid)
     fmt.Println(exampleVariadic())
 }
