@@ -1,6 +1,6 @@
 ### How do we import libraries?
 
-Go's approach to dependency management will feel somewhat unique to many developers, as Go's import structure and native dependency management is based on project version control URLs. For consistency and accuracy, parts of this section were directly applied from Go's official documentation.
+Go's approach to dependency management will feel somewhat unique to many developers, as Go's import structure and native dependency management is based on project version control URLs.
 
 ### Overview
 
@@ -240,3 +240,7 @@ In Go we:
 * Always use the recommended `GOPATH` structure as described above! The Go tooling will make it really hard for you to use any other structure (unless you're using another dependency management tool, like `dep` which is officially supported and managed by Go)
 
 * Generally use `dep` for managing dependencies for larger/production projects that require a more consistent environment (this is covered in the upcoming Dependency Management section)
+
+### Attribution
+
+Portions of this page are modifications based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
