@@ -4,17 +4,20 @@ display_name: \#A$AP Learn Go (GoLang)
 org: EXLskills
 # This is the *unique* ID of your course (again) because we're maintaining compatability with other course formats. If you intend to use this with OLX or another course host, then it can have another value.
 course: learn_golang_asap
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/ap-java-course.jpg
+course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/golang-gopher-typing.gif
 language: en
-est_minutes: 30
+est_minutes: 45
 primary_topic: Go
-repo_url: https://github.com/exlskills/course-A$AP-learn-golang
+repo_url: https://github.com/exlskills/course-ASAP-learn-golang
 topics:
   - Go
   - GoLang
   - A$AP Learn
-headline: Your quick headline goes here!
-description: This is a slightly longer course description that will be shown to users on the course home page.
+headline: Learn GoLang A$AP and Get to Work!
+description: |2
+  This is the EXLskills free and open-source A$AP Learn GoLang Course! It's a highly-accelerated open course that's best-suited for people with a bit of background in software engineering to quickly pick up Go, learn the essential best practices, and hit the ground running!
+  After this course, you'll be able to build basic Go applications in addition to lightweight webservers, highly-concurrent programs, and reusable libraries in Go that you can share with other developers!
+  For further practice, we recommend checking out our Go [Guided Projects](https://exlskills.com/learn-en/projects) that will give you access to a professional Go developer, detailed documentation, and real-world tasks that you can work on to go from the basics of Go, into building production apps.
 info_md: |2
   This is your course's long-form markdown info text. This will be shown to users in the info tab of your course.
 
