@@ -46,3 +46,7 @@ In Go we:
 * Do our best to document exported types, constants, variables, and functions -- it's good practice
 
 * Generally try to export as few fields as possible
+
+### Limitations of Go Access Control
+
+The primary limitation that developers from Java-like languages will notice is that you can only manage access by package -- not by class (or file, since Go doesn't have classes -- just structs). In reality, this tends to be a non-issue, but it is something to keep in mind for those who are used to having more granular control!
