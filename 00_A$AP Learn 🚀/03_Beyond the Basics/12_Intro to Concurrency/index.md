@@ -85,3 +85,14 @@ func incrementInt(i int, c chan int) {
 }
 
 ```
+
+### Keep it Idiomatic!
+
+In Go we:
+
+* Always use channels to communicate amongst concurrent goroutines
+
+* Remember to use mutexes to safely read and write datatypes that are not natively concurrent-safe (covered in Advanced Concurrency)
+
+* Encourage creating many goroutines if your use case demands it -- since they are so lightweight, there's no reason to limit yourself to say 100 go routines. Create however many thousand you need and the Go runtime will manage the scheduling. The upper limit is most realistically defined by the RAM/CPU constraints of your system.
+

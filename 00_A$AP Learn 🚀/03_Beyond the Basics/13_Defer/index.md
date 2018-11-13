@@ -90,3 +90,8 @@ func c() (i int) {
 ```
 
 This is convenient for modifying the error return value of a function.
+
+### Attribution
+
+Portions of this page are modifications based on work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+
