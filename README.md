@@ -1,4 +1,4 @@
-# EXLskills Free & Open-source Courseware Template
+# EXLskills A$AP Learn GoLang Course! 
 
 This is the EXLskills free and open-source template. It includes a checklist, license, readme, and an index.yaml file to help you get started with creating an EXLskills-compatible course!
 
