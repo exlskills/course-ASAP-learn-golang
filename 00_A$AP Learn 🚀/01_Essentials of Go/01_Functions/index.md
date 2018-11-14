@@ -1,6 +1,6 @@
 ### Define and Call Functions
 
-Functions transform input arguments and do things for us in Go -- same is just about any other programming language. They are extremely flexible, as you'll soon find out!
+Functions transform input arguments and do things for us in Go -- same as just about any other programming language. They are extremely flexible, as you'll soon find out!
 
 #### Functions in Go are Awesome...
 
