@@ -147,6 +147,3 @@ In Go, we generally:
 
 * It's not _that_ common to pass functions around as arguments in Go, primarily since we prefer to use goroutines for concurrency, rather than 'callbacks' (like JS does, for instance), however it's still used for things like walking a file tree or applying a specific transformation to some data that another function is analyzing
 
-#### Limitations of Variables in Go
-
-Perhaps the most annoying thing for some people coming from languages such as Python or JS, will be the fact that Go variables are statically-typed, which is actually pretty awesome in it's own way! People from statically-typed languages, such as Java or C will find this natural. Just remember that the type system -- and its somewhat rigid approach -- is actually there to help you build maintainable, self-documenting, and performant code! Once you get used to it, you might have a hard time going back to a dynamically-typed language!
