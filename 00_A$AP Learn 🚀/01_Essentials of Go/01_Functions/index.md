@@ -2,7 +2,7 @@
 
 Functions transform input arguments and do things for us in Go -- same as just about any other programming language. They are extremely flexible, as you'll soon find out!
 
-#### Functions in Go are Awesome...
+### Functions in Go are Awesome...
 
 We can define functions that:
 
@@ -89,7 +89,7 @@ func funcFactory(prefix... string) (func(suffix... string) string) {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we generally:
 
@@ -101,6 +101,6 @@ In Go, we generally:
 
 * It's not _that_ common to pass functions around as arguments in Go, primarily since we prefer to use goroutines for concurrency, rather than 'callbacks' (like JS does, for instance), however it's still used for things like walking a file tree or applying a specific transformation to some data that another function is analyzing
 
-#### Limitations of Functions in Go
+### Limitations of Functions in Go
 
 The primary limitation that many Java developers will notice is the inability to overload a function, because Go only uses the package scope and the function name to identify functions uniquely. This also comes with some neat benefits, chiefly the fact that you get cleaner compiler errors and it's harder to pass the wrong things into a function, or worse yet, call the wrong function by accident!

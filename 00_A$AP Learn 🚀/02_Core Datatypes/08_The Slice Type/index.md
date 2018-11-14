@@ -56,13 +56,13 @@ func main() {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we:
 
 * Almost always use slices instead of arrays... It's quite rare to see fixed length arrays used in Go applications outside of some very specific and deliberate use cases
 
-#### Common Limitations of Slices in Go
+### Common Limitations of Slices in Go
 
 Remember that although slices are expandable -- this only means that Go will help you to allocate new chunks of memory automatically for you, e.g., it's nothing more than an abstraction. For this reason, changing the size of a slice must be explicitly performed via `append`.
 

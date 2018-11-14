@@ -2,7 +2,7 @@
 
 Variables are how we store the vast majority of our data in memory while a Go program is executing. Variables in Go are statically-typed, so they all have a type and that type cannot be changed during execution. Go gives us a number of 'basic' datatypes that are a part of the language, some higher-order types for storing lists and maps, and some pointer awesomeness!
 
-#### Some key things to remember about declration/assignment in Go
+### Some key things to remember about declration/assignment in Go
 
 Remember that:
 
@@ -16,11 +16,11 @@ Remember that:
 
 * Functions can also be defined, assigned, and passed around like variables, however, this isn't really that common of a use case for variables in most Go applications
 
-#### Want to read more about types???
+### Want to read more about types???
 
 We thought so, check out the section called "Datatypes Overview," as this section is more about using variables than the specific data types.
 
-#### Let's do some stuff with variables!
+### Let's do some stuff with variables!
 
 ```go
 package main
@@ -81,7 +81,7 @@ func getSomeNumber() (int, error) {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we generally:
 
@@ -91,6 +91,6 @@ In Go, we generally:
 
 * It's not _that_ common to pass functions around as arguments in Go, primarily since we prefer to use goroutines for concurrency, rather than 'callbacks' (like JS does, for instance), however it's still used for things like walking a file tree or applying a specific transformation to some data that another function is analyzing
 
-#### Limitations of Variables in Go
+### Limitations of Variables in Go
 
 Perhaps the most annoying thing for some people coming from languages such as Python or JS, will be the fact that Go variables are statically-typed, which is actually pretty awesome in it's own way! People from statically-typed languages, such as Java or C will find this natural. Just remember that the type system -- and its somewhat rigid approach -- is actually there to help you build maintainable, self-documenting, and performant code! Once you get used to it, you might have a hard time going back to a dynamically-typed language!

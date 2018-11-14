@@ -48,7 +48,7 @@ func main() {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we:
 

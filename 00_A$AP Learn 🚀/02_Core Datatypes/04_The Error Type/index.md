@@ -55,7 +55,7 @@ func printTheJSONIfPossible() {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we:
 
@@ -88,7 +88,7 @@ if err := doSomethingThatMightFail(); err != nil {
 // Otherwise, keep on keeping on...
 ```
 
-#### Limitations of the Error Type
+### Limitations of the Error Type
 
 The greatest upside -- yet at the same time drawback -- of the `error` type for managing errors is that it's implementation and checking is totally up to the function author and caller, respectively. On one hand it's awesome, because you have full control and can do whatever you want, but, of course, on the other hand, you have full control and can do whatever you want! The ultimate blessing/curse!
 

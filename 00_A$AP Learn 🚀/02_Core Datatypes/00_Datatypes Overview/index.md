@@ -2,7 +2,7 @@
 
 Go is a statically-typed language with some 'basic' datatypes, arrays and slices, pointers, and maps. We also have structs and interfaces, however, those are covered in their respective sections, "Structs" and "Interfaces"
 
-#### ⚠️ BEWARE Potential Confusion Ahead! ⚠️ 
+### ⚠️ BEWARE Potential Confusion Ahead! ⚠️ 
 
 * ⚠️ Many new Go developers struggle discerning arrays from slices because the syntax and apparent use case seems so similar, so the best advice for new Go developers is just don't use arrays! Call everything a slice, and always use slice notation when you need an 'array-like' thing. This will give you a consistent behavior and later when you're ready to explore more Go, you can consider learning more about arrays
 

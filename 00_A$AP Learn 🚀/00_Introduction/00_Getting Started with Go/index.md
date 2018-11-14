@@ -2,7 +2,7 @@
 
 Google's Go Programming language (often called GoLang for clarity), is one of today's fastest-growing languages and has one of the highest developer satisifaction ratings in the industry -- Go developers love coding in Go! 
 
-#### Download and Install GoLang
+### Download and Install GoLang
 
 Prior to starting this course, don't forget to install Go on your system if you haven't already done that [here](https://golang.org/dl/).
 

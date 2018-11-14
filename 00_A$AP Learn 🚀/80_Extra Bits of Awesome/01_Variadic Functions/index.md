@@ -1,6 +1,6 @@
 ### How to Use Variadic Functions 
 
-#### What are varaidics and why do they exist?
+### What are varaidics and why do they exist?
 
 Variadics exist because sometimes we want to take 0 or more arguments in a function. Imagine a string concatenation function, you would like the caller to easily be able to call your function with the strings that they want concatenated!
 

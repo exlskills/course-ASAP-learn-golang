@@ -1,6 +1,6 @@
 ### Let's disect a common confusion around functions...
 
-#### Pass by reference vs. pass by value explained
+### Pass by reference vs. pass by value explained
 
 Whenever we pass a 'basic' type in Go, which is one of the following:
 

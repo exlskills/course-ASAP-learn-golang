@@ -1,6 +1,6 @@
 ### Minimum Requirements for a Valid Program
 
-#### Our Minimal Go Program
+### Our Minimal Go Program
 
 This is roughly the minimal, "Hello World," Go program. There are certainly ways to make it smaller, but we're just trying to make sure that we write more or less "idiomatic" Go code, which means code that generally adheres to the "Go way of doing things." This makes it much easier to join real Go projects, since Go developers try to use consistent constructs and approaches to common problems. 
 

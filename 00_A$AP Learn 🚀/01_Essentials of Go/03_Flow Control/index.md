@@ -2,7 +2,7 @@
 
 Flow control in Go will feel very familiar to many developers who already have an experience with a language that has a more or less C-style syntax. There are some neat syntactical benefits that Go offers, which allows to have cleaner and often terser code.
 
-#### Available Statements
+### Available Statements
 
 * `if`, `if`/`else`, `if`/`else if`/`else` are the most commonly-used logical statements
 
@@ -14,7 +14,7 @@ Flow control in Go will feel very familiar to many developers who already have a
 
 * `goto` is available in Go, however, it is infrequently used (although there are definitely some use cases for it, where it helps to simplify code)
 
-#### Flow Control in Practice
+### Flow Control in Practice
 
 ```go
 package main
@@ -137,7 +137,7 @@ otherBlock:
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we generally:
 

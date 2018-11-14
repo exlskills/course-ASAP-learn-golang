@@ -34,12 +34,12 @@ func main() {
 
 ```
 
-#### Keep it Idiomatic!
+### Keep it Idiomatic!
 
 In Go, we:
 
 * Almost always use slices instead of arrays... It's quite rare to see fixed length arrays used in Go applications
 
-#### Limitations of Arrays in Go
+### Limitations of Arrays in Go
 
 The primary feature -- and limitation -- of arrays in Go is the same: their size is defined (and fixed) at compile time. You can't use language features such as `append` on them, etc. So arrays do have their particular use cases, but it's generally a narrow range of applications
