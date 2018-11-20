@@ -4,4 +4,4 @@ Go has a style that is in part enforced by the compiler -- things like braces ar
 
 ### Format your Code
 
-The easiest way to format your code is by running `go fmt -w` in your project root directory. This will automatically fix all possible style issues and then persist them.
+The easiest way to format your code is by running `gofmt -w .` in your project root directory. This will automatically fix all possible style issues and then persist them.
