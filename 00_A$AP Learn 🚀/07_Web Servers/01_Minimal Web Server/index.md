@@ -23,6 +23,7 @@ func (s miniHTTPServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 func main() {
     // The http.ListenAndServe function will listen on the port and route all HTTP requests to our http.Handler implementation: miniHTTPServer
+    fmt.Println("Listening on port 8080 ...")
     if err := http.ListenAndServe(":8080", miniHTTPServer{}); err != nil {
         fmt.Println("An error occurred listening on port 8080:", err)
         os.Exit(1) // Exit with an error code
