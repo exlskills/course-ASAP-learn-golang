@@ -16,7 +16,7 @@ import (
 type miniHTTPServer struct {}
 
 // Fit the `http.Handler` interface by implementing the standard ServeHTTP method
-func (s *miniHTTPServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+func (s miniHTTPServer) ServeHTTP(w http.ResponseWriter, r *http.Request) {
     // Send a string back to the requester
     w.Write([]byte("Mini HTTP server in Go!"))
 }
