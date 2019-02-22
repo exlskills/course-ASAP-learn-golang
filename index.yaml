@@ -5,7 +5,7 @@ org: EXLskills
 # This is the *unique* ID of your course (again) because we're maintaining compatability with other course formats. If you intend to use this with OLX or another course host, then it can have another value.
 weight: 11000
 course: learn_golang_asap
-course_image: https://s3-us-west-2.amazonaws.com/exlskills-course-logos/golang-gopher-typing.gif
+course_image: https://cdn-course-logos.exlskills.com/golang-gopher-typing.gif
 language: en
 est_minutes: 45
 primary_topic: Go
