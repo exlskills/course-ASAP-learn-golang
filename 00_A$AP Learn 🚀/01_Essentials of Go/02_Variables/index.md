@@ -2,7 +2,7 @@
 
 Variables are how we store the vast majority of our data in memory while a Go program is executing. Variables in Go are statically-typed, so they all have a type and that type cannot be changed during execution. Go gives us a number of 'basic' datatypes that are a part of the language, some higher-order types for storing lists and maps, and some pointer awesomeness!
 
-### Some key things to remember about declration/assignment in Go
+### Some key things to remember about declaration/assignment in Go
 
 Remember that:
 
