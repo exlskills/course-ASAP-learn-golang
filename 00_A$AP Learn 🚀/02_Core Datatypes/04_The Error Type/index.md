@@ -92,4 +92,4 @@ if err := doSomethingThatMightFail(); err != nil {
 
 The greatest upside -- yet at the same time drawback -- of the `error` type for managing errors is that it's implementation and checking is totally up to the function author and caller, respectively. On one hand it's awesome, because you have full control and can do whatever you want, but, of course, on the other hand, you have full control and can do whatever you want! The ultimate blessing/curse!
 
-The other concern occasionally raised is how repetitive the error checking might feel -- it is quite frequent to see that 'if err != nil' block several times over in a function. This is how Go works, so the best answer is adding a tmeplate auto complete to your IDE and keep Go-ing ;)
+The other concern occasionally raised is how repetitive the error checking might feel -- it is quite frequent to see that 'if err != nil' block several times over in a function. This is how Go works, so the best answer is adding a template auto complete to your IDE and keep Go-ing ;)
