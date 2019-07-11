@@ -24,17 +24,17 @@ func main() {
     demoSlice := make([]string, 0, len(colorsMap))
 
     // Slice will be [] and len will be 0
-    fmt.Println("Empty slice:", demoSlice, "with len:" len(demoSlice))
+    fmt.Println("Empty slice:", demoSlice, "with len:", len(demoSlice))
 
     // We can also create slice literals, like so
     demoSlice = make([]string, 10)
 
     // Slice with defaulted elements
-    fmt.Println("Slice filled with defaults:", demoSlice, "with len:" len(demoSlice))
+    fmt.Println("Slice filled with defaults:", demoSlice, "with len:", len(demoSlice))
 
     // Set values for specific indices
-    demoSlice[0] = 21
-    demoSlice[9] = 42
+    demoSlice[0] = "21"
+    demoSlice[9] = "42"
 
     // If you use an index, like 10 in this case, that is out of bounds, you will get a panic (similar
     // to an exception in some other languages)
