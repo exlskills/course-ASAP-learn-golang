@@ -62,7 +62,7 @@ func main() {
     select {
     case myInt := <-myIntsChan:
         // The above statement reads a value from the myIntsChan and writes it to our variable myInt
-        fmt.Println("My int =", i)
+        fmt.Println("My int =", myInt)
     case <-myStringsChan:
         // The above statement reads a value from the myStringsChan, however, it discards it
         // This is useful if you just care about knowing a value *was* received -- not necessarily what that value is
