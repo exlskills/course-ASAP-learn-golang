@@ -17,11 +17,9 @@ func main() {
 
     // Bytes are used quite frequently when dealing with strings in Go, and they are
     // provided as an alias for uint8 (0-255)
-    var myByte = 65
+    var myByte byte = 65
     // Since 65 is 'A' in ASCII, we'll see it is easily represented as both a number and character
-    // We use type convertion (casting) of an int to a byte and then we use that byte as an object of the byte slice
-    // so we can convert that byte slice to a string (65(int) -> 65(byte) -> []byte{65(byte)} -> "A"(string)
-    fmt.Println("My byte as a number:", myByte, "My byte as a character:", string([]byte{byte(myByte)}))
+    fmt.Println("My byte as a number:", myByte, "My byte as a character:", string([]byte{myByte}))
     
     // Complex numbers have two parts -- the real and imaginary. In Go we represent them as a pair of either
     // `float32`s or `float64`s, depending on which complex datatype is used. See below:
