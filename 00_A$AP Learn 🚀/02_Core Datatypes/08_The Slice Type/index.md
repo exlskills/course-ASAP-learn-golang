@@ -34,7 +34,7 @@ func main() {
     //     that capacity (where the Go runtime would automagically expand the slice for us -- expensive though!)
     // NB: `make([]string, 10)` would create a slice with 10 elements (each of which would be initialized 
     //     to their default value based on their type) and the capacity would be equal to the length.
-    demoSlice := make([]string, 0, len(colorsMap))
+    demoSlice := make([]string, 0, 10)
 
     // Slice will be [] and len will be 0
     fmt.Println("Empty slice:", demoSlice, "with len:", len(demoSlice))
