@@ -44,7 +44,7 @@ func main() {
     // NB: The type of a variable, once declared, cannot be changed
     //     e.g., this will cause an error `i = "Something that's not an int"`
 
-    // NB: We must use a variable (not just declare and/or assign) it, otherwise Go will
+    // NB: We must use a variable (not just declare and/or assign it), otherwise Go will
     //     give us a compile-time error! In the case that you just want to let the compiler
     //     know that you're smarter than it, you can basically use your variable in a 'throw away'
     //     assignment to a special character in Go (the "blank identifier")
