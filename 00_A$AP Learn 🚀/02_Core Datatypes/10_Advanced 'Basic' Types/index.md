@@ -54,4 +54,4 @@ In Go, we:
 
 * Quite frequently cast `string` values to `[]byte` and vice-versa for many operations that involve buffers, datasets, etc.
 
-* Often use the explicitly sized type (i.e., `int64` or `float64`), except when indexing an array/slice where must the `int` type
+* Often use the explicitly sized type (i.e., `int64` or `float64`), except when indexing an array/slice where must use the `int` type
