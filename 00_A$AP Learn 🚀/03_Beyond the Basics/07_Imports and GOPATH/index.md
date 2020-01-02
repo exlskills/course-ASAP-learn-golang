@@ -32,19 +32,19 @@ bin/
 src/
     github.com/golang/example/
         .git/                      # Git repository metadata
-	hello/
-	    hello.go                   # command source
-	outyet/
-	    main.go                    # command source
-	    main_test.go               # test source
-	stringutil/
-	    reverse.go                 # package source
-	    reverse_test.go            # test source
+        hello/
+            hello.go                   # command source
+        outyet/
+            main.go                    # command source
+            main_test.go               # test source
+        stringutil/
+            reverse.go                 # package source
+            reverse_test.go            # test source
     golang.org/x/image/
         .git/                      # Git repository metadata
-	bmp/
-	    reader.go                  # package source
-	    writer.go                  # package source
+        bmp/
+            reader.go                  # package source
+            writer.go                  # package source
     
     ... (many more repositories and packages omitted) ...
 ```
