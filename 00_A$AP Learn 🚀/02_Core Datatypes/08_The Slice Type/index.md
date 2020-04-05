@@ -14,20 +14,7 @@ import (
 // NB: Across these examples, we frequently use the built-in `len(something)` function,
 //     that gives us the number of elements in our array, map, or slice
 
-func main() {
-    colorsMap := map[string]string{
-        "AliceBlue":    "#F0F8FF",
-        "AntiqueWhite": "#FAEBD7",
-        "Aqua":         "#00FFFF",
-        "Aquamarine":   "#7FFFD4",
-        "Azure":        "#F0FFFF",
-        "Red":          "#FF0000",
-        "Green":        "#008000",
-        "Blue":         "#0000FF",
-        "Yellow":       "#FFFF00",
-        "White":        "#FFFFFF",
-    }
-    
+func main() { 
     // We use `make` to create an empty slice of our desired type, length, and, optionally, capacity
     // NB: Below, 0 is the length of our slice, and 10 is the capacity. This means that Go
     //     will allocate memory for 10 elements and `append()` will be a cheap operation until we exceed
