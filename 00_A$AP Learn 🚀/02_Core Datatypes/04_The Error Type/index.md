@@ -76,11 +76,9 @@ if err != nil {
     return err
 }
 // Otherwise, keep on keeping on...
-```
 
---- Or a slightly shorter option if you want:
+// Or a slightly shorter option if you want:
 
-```go 
 if err := doSomethingThatMightFail(); err != nil {
     // Do something, frequently it means returning like this
     return err
