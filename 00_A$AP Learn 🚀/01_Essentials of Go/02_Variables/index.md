@@ -55,7 +55,7 @@ func main() {
     _ = i
 
     // NB: the `_` can also be used to import a package for a side-effect (like having that package's `init`
-    //     function executed). This is somewhat common, however, you shouldn't just use this import a ton of 
+    //     function executed). This is somewhat common, however, you shouldn't just use this to import a ton of 
     //     libs that you don't need as that will just slow down your compilation and increase the
     ///    size of your executable...
 
