@@ -16,7 +16,7 @@ We can define functions that:
 
 * ⚠️ Remember that most arguments are 'passed by value' -- more on this in the 'Pass by Reference vs. Pass by Value' section as there are a number of considerations one must take into account
 
-* ⭐ Whenever you have some functions for a specific data type (frequently a struct), you can create a "method" which is a function with a "reciever" (think class and instance method...) and then those functions will be bound to instances of that data type! Cool! (Read more in the "Methods" section)
+* ⭐ Whenever you have some functions for a specific data type (frequently a struct), you can create a "method" which is a function with a "receiver" (think class and instance method...) and then those functions will be bound to instances of that data type! Cool! (Read more in the "Methods" section)
 
 ... And functions can be passed around just like variables in Go! ⭐
 
